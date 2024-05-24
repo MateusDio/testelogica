@@ -1,0 +1,33 @@
+﻿## Ex01
+
+ public static void main(String[] args) {
+        Soma();
+
+    }
+
+    public static void Soma() {
+        Scanner a = new Scanner(System.in);
+        
+        int tamanho = 1;
+        int[] v1 = new int[tamanho];
+        int[] v2 = new int[tamanho];
+        int soma = 0;
+
+        for (int i = 0; i < tamanho; i++) {
+            System.out.println("Digite um número: ");
+            v1[0] = a.nextInt();
+            System.out.println("Digite outro número: ");
+            v2[i] = a.nextInt();
+
+            soma = v1[0] + v2[0];
+            
+
+
+        }
+        System.out.println("Soma dos elementos " + soma);
+        a.close();
+
+    }
+}
+
+Exercicio 2
